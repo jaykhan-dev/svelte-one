@@ -4,8 +4,8 @@
 	import github from '$lib/images/github.svg'
 </script>
 
-<header class="fixed top-0 w-full bg-white shadow-2xl z-50">
-	<div class="navbar bg-base-100">
+<header class="fixed top-0 w-full shadow-2xl z-50 border-b border-white/20">
+	<div class="navbar bg-black">
 		<div class="navbar-start">
 			<div class="dropdown">
 				<svg
@@ -48,10 +48,10 @@
 		</div>
 		<div class="navbar-center hidden lg:flex">
 			<ul class="menu menu-horizontal p-0">
-				<li><a href="/">Item 1</a></li>
+				<li><a href="/hodlonaut">Hodlonaut</a></li>
 				<li>
 					<a href="/">
-						Parent
+						Three
 						<svg
 							class="fill-current"
 							xmlns="http://www.w3.org/2000/svg"
@@ -62,8 +62,8 @@
 						>
 					</a>
 					<ul class="p-2">
-						<li><a href="/">Submenu 1</a></li>
-						<li><a href="/">Submenu 2</a></li>
+						<li><a href="/three/one">Scene One</a></li>
+						<li><a href="/">Scene Two</a></li>
 					</ul>
 				</li>
 				<li><a href="/">Item 3</a></li>
