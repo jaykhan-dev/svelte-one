@@ -2,14 +2,14 @@
 	import Logo from '../lib/images/pleb-logo-white.svg'
 </script>
 
-<footer class="bg-black text-white mt-32">
+<footer class="bg-black text-white mt-32 border-t border-white/20 lg:p-0 p-4">
 	<!-- SIGNUP -->
 
 	<div
 		class="lg:-translate-y-24 lg:flex items-center justify-between p-6 rounded shadow-xl lg:w-2/3 mx-auto bg-gradient-to-r from-violet-500 via-blue-600 to-sky-500"
 	>
 		<div>
-			<h1 class="lg:text-4xl text-2xl font-bold">Get regular updates</h1>
+			<h1 class="lg:text-4xl text-3xl font-bold">Get regular updates</h1>
 			<p class="flex space-x-4 my-6">
 				<span>&#10003; Weekly</span>
 				<span>&#10003; New Releases</span>
@@ -22,9 +22,9 @@
 		</div>
 	</div>
 
-	<div class="lg:w-2/3 mx-auto flex items-center space-x-4">
+	<div class="lg:w-2/3 mx-auto flex items-center space-x-4 my-8">
 		<img src={Logo} alt="pleb logo" width={100} />
-		<h1 class="lg:text-4xl font-black">Plebian Market</h1>
+		<h1 class="text-4xl font-black">Plebian Market</h1>
 	</div>
 
 	<!-- LINKS -->
@@ -102,7 +102,7 @@
 				<p>Powered by</p>
 				<a href="https://plebian.technology" class="btn">Plebian Technology</a>
 			</div>
-			<div class="text-2xl">
+			<div class="text-2xl text-blue-300">
 				<i class="fa-brands fa-twitter" />
 			</div>
 		</div>

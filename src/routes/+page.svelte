@@ -2,11 +2,12 @@
 	import Counter from './Counter.svelte'
 	import welcome from '$lib/images/svelte-welcome.webp'
 	import welcome_fallback from '$lib/images/svelte-welcome.png'
+	import { fade } from 'svelte/transition'
 </script>
 
 <svelte:head>
 	<title>Plebian Market</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Plebian Market" />
 	<link
 		rel="stylesheet"
 		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -16,7 +17,7 @@
 	/>
 </svelte:head>
 
-<section>
+<section transition:fade class="py-20 bg-black">
 	<h1 class="text-4xl text-center my-8">
 		<span class="welcome">
 			<picture>
@@ -28,9 +29,7 @@
 		Svelte is cool!
 	</h1>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
+	<h2>Built with Tailwind + DaisyUI</h2>
 
 	<Counter />
 

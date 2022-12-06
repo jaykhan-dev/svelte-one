@@ -4,7 +4,7 @@
 	import '../app.css'
 </script>
 
-<div class="app">
+<div class="app bg-black block overflow-x-hidden">
 	<Header />
 
 	<main class="">

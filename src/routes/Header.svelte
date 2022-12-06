@@ -2,7 +2,6 @@
 	import { page } from '$app/stores'
 	import logo from '$lib/images/svelte-logo.svg'
 	import github from '$lib/images/github.svg'
-	import { fly } from 'svelte/transition'
 </script>
 
 <header class="fixed top-0 w-full shadow-2xl z-50 border-b border-white/20">
@@ -45,11 +44,11 @@
 					<li><a href="/">Item 3</a></li>
 				</ul>
 			</div>
-			<a href="/" class="btn btn-ghost normal-case text-xl">daisyUI</a>
+			<a href="/" class="btn btn-ghost normal-case text-xl">Plebian Market</a>
 		</div>
 		<div class="navbar-center hidden lg:flex">
 			<ul class="menu menu-horizontal p-0">
-				<li><a href="/hodlonaut" transition:fly={{ y: 200, duration: 2000 }}>Hodlonaut</a></li>
+				<li><a href="/hodlonaut">Hodlonaut</a></li>
 				<li>
 					<a href="/">
 						Three
@@ -63,11 +62,11 @@
 						>
 					</a>
 					<ul class="p-2">
-						<li><a href="/three/one">Scene One</a></li>
-						<li><a href="/">Scene Two</a></li>
+						<li class="bg-black"><a href="/three/one">Scene One</a></li>
+						<li class="bg-black"><a href="/">Scene Two</a></li>
 					</ul>
 				</li>
-				<li><a href="/">Item 3</a></li>
+				<li><a href="/">JSON Data</a></li>
 			</ul>
 		</div>
 		<div class="navbar-end">
