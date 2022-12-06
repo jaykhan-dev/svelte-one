@@ -1,6 +1,17 @@
-<script>
+<script lang="ts">
 	import Logo from '../lib/images/pleb-logo-white.svg'
+	import Substack from '../lib/images/substack.svg'
 </script>
+
+<svelte:head>
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+	/>
+</svelte:head>
 
 <footer class="bg-black text-white mt-32 border-t border-white/20 lg:p-0 p-4">
 	<!-- SIGNUP -->
@@ -102,8 +113,11 @@
 				<p>Powered by</p>
 				<a href="https://plebian.technology" class="btn">Plebian Technology</a>
 			</div>
-			<div class="text-2xl text-blue-300">
+			<div class="text-2xl flex items-center space-x-4">
 				<i class="fa-brands fa-twitter" />
+				<i class="fa-brands fa-telegram" />
+				<i class="fa-brands fa-github" />
+				<img src={Substack} alt="substack" width={19} />
 			</div>
 		</div>
 	</div>

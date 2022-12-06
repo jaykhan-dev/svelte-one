@@ -51,7 +51,7 @@
 				<li><a href="/hodlonaut">Hodlonaut</a></li>
 				<li>
 					<a href="/">
-						Three
+						Scenes
 						<svg
 							class="fill-current"
 							xmlns="http://www.w3.org/2000/svg"
@@ -62,11 +62,11 @@
 						>
 					</a>
 					<ul class="p-2">
-						<li class="bg-black"><a href="/three/one">Scene One</a></li>
+						<li class="bg-black"><a href="/scenes/one">Scene One</a></li>
 						<li class="bg-black"><a href="/">Scene Two</a></li>
 					</ul>
 				</li>
-				<li><a href="/">JSON Data</a></li>
+				<li><a href="/data">Data</a></li>
 			</ul>
 		</div>
 		<div class="navbar-end">
