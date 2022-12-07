@@ -35,7 +35,7 @@
 
 	<div class="lg:w-2/3 mx-auto flex items-center space-x-4 my-8">
 		<img src={Logo} alt="pleb logo" width={100} />
-		<h1 class="text-4xl font-black">Plebian Market</h1>
+		<h1 class="text-4xl font-black">Plebeian Market</h1>
 	</div>
 
 	<!-- LINKS -->

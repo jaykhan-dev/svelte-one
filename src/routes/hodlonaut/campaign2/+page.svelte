@@ -9,12 +9,9 @@
 <Carousel />
 <div class="grid place-items-center my-8">
 	<h1 class="lg:text-5xl my-4">Find it first here</h1>
-	<p class="my-4 lg:w-1/3 text-center">
-		Indiegogo is where early adopters and innovation seekers find lively, imaginative tech before it
-		hits the mainstream.
-	</p>
+	<p class="my-4 lg:w-1/3 text-center">Plebeian Market is how you can support other Bitcoiners.</p>
 	<div class="space-x-4 my-4">
-		<a href="/" class="btn">Sign up now</a>
-		<a href="/" class="btn">Learn more</a>
+		<a href="/" class="btn">Make a Bid</a>
+		<a href="/" class="btn">Donate</a>
 	</div>
 </div>

@@ -1,7 +1,7 @@
 <script>
 	import SpaceCat from '$lib/images/space-cat.png'
 
-	let date = new Date()
+	// let date = new Date()
 </script>
 
 <svelte:head>

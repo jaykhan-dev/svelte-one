@@ -44,7 +44,7 @@
 					<li><a href="/">Item 3</a></li>
 				</ul>
 			</div>
-			<a href="/" class="btn btn-ghost normal-case text-xl">Plebian Market</a>
+			<a href="/" class="btn btn-ghost normal-case text-xl">Plebeian Market</a>
 		</div>
 		<div class="navbar-center hidden lg:flex">
 			<ul class="menu menu-horizontal p-0">
