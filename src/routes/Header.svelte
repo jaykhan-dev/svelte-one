@@ -48,7 +48,23 @@
 		</div>
 		<div class="navbar-center hidden lg:flex">
 			<ul class="menu menu-horizontal p-0">
-				<li><a href="/hodlonaut">Hodlonaut</a></li>
+				<li>
+					<a href="/hodlonaut">
+						Hodlonaut
+						<svg
+							class="fill-current"
+							xmlns="http://www.w3.org/2000/svg"
+							width="20"
+							height="20"
+							viewBox="0 0 24 24"
+							><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg
+						>
+					</a>
+					<ul class="p-2">
+						<li class="bg-black"><a href="/hodlonaut/campaign1">Campaign 1</a></li>
+						<li class="bg-black"><a href="/hodlonaut/campaign2">Campaign 2</a></li>
+					</ul>
+				</li>
 				<li>
 					<a href="/">
 						Scenes
@@ -63,14 +79,19 @@
 					</a>
 					<ul class="p-2">
 						<li class="bg-black"><a href="/scenes/one">Scene One</a></li>
-						<li class="bg-black"><a href="/">Scene Two</a></li>
+						<li class="bg-black"><a href="/scenes/two">Scene Two</a></li>
 					</ul>
 				</li>
 				<li><a href="/data">Data</a></li>
 			</ul>
 		</div>
-		<div class="navbar-end">
-			<a href="/" class="btn">Get started</a>
+		<div class="navbar-end flex items-center space-x-4">
+			<input type="checkbox" class="toggle toggle-lg" checked />
+			<div class="avatar">
+				<div class="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+					<img src="https://placeimg.com/192/192/people" alt="avatar daisy ui" />
+				</div>
+			</div>
 		</div>
 	</div>
 </header>

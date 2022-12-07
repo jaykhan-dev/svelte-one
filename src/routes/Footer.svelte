@@ -21,11 +21,11 @@
 	>
 		<div>
 			<h1 class="lg:text-4xl text-3xl font-bold">Get regular updates</h1>
-			<p class="flex space-x-4 my-6">
-				<span>&#10003; Weekly</span>
-				<span>&#10003; New Releases</span>
-				<span>&#10003; New Deals</span>
-			</p>
+			<div class="lg:flex lg:space-x-4 my-6">
+				<p>&#10003; Weekly</p>
+				<p>&#10003; New Releases</p>
+				<p>&#10003; New Deals</p>
+			</div>
 		</div>
 		<div class="flex items-center space-x-4">
 			<button class="btn border-2 border-white"> Sign up free &#8702;</button>
@@ -108,12 +108,12 @@
 
 	<!-- DISCLAIMERS -->
 	<div class="border-t border-white/20">
-		<div class="lg:w-2/3 mx-auto flex items-center justify-between py-6">
+		<div class="lg:w-2/3 mx-auto lg:flex items-center justify-between py-6">
 			<div class="flex items-center space-x-4">
 				<p>Powered by</p>
 				<a href="https://plebian.technology" class="btn">Plebian Technology</a>
 			</div>
-			<div class="text-2xl flex items-center space-x-4">
+			<div class="text-2xl flex items-center space-x-4 lg:my-0 my-4">
 				<i class="fa-brands fa-twitter" />
 				<i class="fa-brands fa-telegram" />
 				<i class="fa-brands fa-github" />
