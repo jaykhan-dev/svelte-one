@@ -17,7 +17,7 @@
 	<!-- SIGNUP -->
 
 	<div
-		class="lg:-translate-y-24 lg:flex items-center justify-between p-6 rounded shadow-xl lg:w-2/3 mx-auto bg-gradient-to-r from-violet-500 via-blue-600 to-sky-500"
+		class="lg:-translate-y-20 lg:flex items-center justify-between p-6 rounded shadow-xl lg:w-2/3 mx-auto bg-gradient-to-r from-violet-500 via-blue-600 to-sky-500"
 	>
 		<div>
 			<h1 class="lg:text-4xl text-3xl font-bold">Get regular updates</h1>
@@ -39,9 +39,9 @@
 	</div>
 
 	<!-- LINKS -->
-	<div class="lg:w-2/3 mx-auto grid lg:grid-cols-5 py-20">
+	<div class="lg:w-2/3 mx-auto grid lg:grid-cols-5 grid-cols-2 py-20">
 		<!-- col -->
-		<div>
+		<div class="gridCol">
 			<h1 class="uppercase text-sm font-bold mb-4 text-gray-600">Category</h1>
 			<ul class="space-y-4">
 				<li>
@@ -54,7 +54,7 @@
 		</div>
 
 		<!-- col -->
-		<div>
+		<div class="gridCol">
 			<h1 class="uppercase text-sm font-bold mb-4 text-gray-600">Category</h1>
 			<ul class="space-y-4">
 				<li>
@@ -67,7 +67,7 @@
 		</div>
 
 		<!-- col -->
-		<div>
+		<div class="gridCol">
 			<h1 class="uppercase text-sm font-bold mb-4 text-gray-600">Category</h1>
 			<ul class="space-y-4">
 				<li>
@@ -80,7 +80,7 @@
 		</div>
 
 		<!-- col -->
-		<div>
+		<div class="gridCol">
 			<h1 class="uppercase text-sm font-bold mb-4 text-gray-600">Category</h1>
 			<ul class="space-y-4">
 				<li>
@@ -93,7 +93,7 @@
 		</div>
 
 		<!-- col -->
-		<div>
+		<div class="gridCol">
 			<h1 class="uppercase text-sm font-bold mb-4 text-gray-600">Category</h1>
 			<ul class="space-y-4">
 				<li>
@@ -122,3 +122,9 @@
 		</div>
 	</div>
 </footer>
+
+<style>
+	.gridCol {
+		margin-top: 20px;
+	}
+</style>

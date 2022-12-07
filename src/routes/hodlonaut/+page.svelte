@@ -3,18 +3,18 @@
 >
 	<!-- COL1 -->
 	<div id="col1" class="border border-white/20 w-full h-96 grid place-items-center relative">
-		<a class="" href="/hodlonaut/campaign1">Design 1</a>
+		<a class="btn btn-primary" href="/hodlonaut/campaign1">Design 1</a>
 	</div>
 
 	<!-- COL1 -->
 	<div id="col2" class="border border-white/20 w-full h-96 grid place-items-center relative">
-		<a class="" href="/hodlonaut/campaign2">Design 2</a>
+		<a class="btn btn-primary" href="/hodlonaut/campaign2">Design 2</a>
 	</div>
 </div>
 
 <style>
 	#col1 {
-		background-image: url('');
+		background-image: url('../../lib/images/space-cat.png');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;

@@ -6,8 +6,4 @@ declare namespace App {
 	// interface Locals {}
 	// interface PageData {}
 	// interface Platform {}
-	interface Bitcoin {
-		id: number
-		price: string
-	}
 }
