@@ -10,7 +10,7 @@
 	<meta name="description" content="Plebian Market" />
 </svelte:head>
 
-<section transition:fade class="py-20 bg-black">
+<section transition:fade class="py-20">
 	<h1 class="text-4xl text-center my-8">
 		<span class="welcome">
 			<picture>

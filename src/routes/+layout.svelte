@@ -6,7 +6,7 @@
 	let dark = true
 </script>
 
-<div>
+<div class="bg-gray-900">
 	<Header />
 
 	<main class="">

@@ -20,12 +20,9 @@
 	})
 </script>
 
-<div transition:fade class="text-white lg:w-2/3 mx-auto min-h-screen">
-	<div class="mt-20">
-		<h1 class="text-2xl font-black">BTC Price:</h1>
-	</div>
-
+<div transition:fade class="text-white lg:w-2/3 mx-auto min-h-screen grid place-items-center">
 	<div class="">
+		<h1 class="text-2xl font-black">BTC Price:</h1>
 		{#each ticker as data}
 			<div class="border-b border-white/20 py-10">
 				<h1 class="text-6xl my-4 font-bold text-gray-600">${data.price_usd}</h1>

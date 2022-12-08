@@ -13,7 +13,7 @@
 	/>
 </svelte:head>
 
-<footer class="bg-black text-white mt-32 lg:p-0 p-4">
+<footer class="text-white mt-32 lg:p-0 p-4">
 	<!-- SIGNUP -->
 
 	<div

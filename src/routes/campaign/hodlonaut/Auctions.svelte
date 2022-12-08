@@ -13,11 +13,11 @@
 	<h1 class="lg:text-6xl text-4xl font-black my-8">Auctions</h1>
 	<p>Latest form a variety of sources</p>
 
-	<div class="tabs tabs-boxed">
+	<!-- <div class="tabs tabs-boxed">
 		<a class="tab">Tab 1</a>
 		<a class="tab">Tab 2</a>
 		<a class="tab">Tab 3</a>
-	</div>
+	</div> -->
 
 	<div class="grid lg:grid-cols-4 gap-4 my-20">
 		<!-- CARD -->

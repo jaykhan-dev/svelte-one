@@ -5,7 +5,7 @@
 </script>
 
 <header class="fixed top-0 w-full shadow-2xl z-50 border-b border-white/20">
-	<div class="navbar bg-black">
+	<div class="navbar bg-gray-900">
 		<div class="navbar-start">
 			<div class="dropdown">
 				<svg
