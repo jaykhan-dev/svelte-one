@@ -50,7 +50,7 @@
 			<ul class="menu menu-horizontal p-0">
 				<li>
 					<a href="/hodlonaut">
-						Hodlonaut
+						Campaign
 						<svg
 							class="fill-current"
 							xmlns="http://www.w3.org/2000/svg"
@@ -61,8 +61,8 @@
 						>
 					</a>
 					<ul class="p-2">
-						<li class="bg-black"><a href="/hodlonaut/campaign1">Campaign 1</a></li>
-						<li class="bg-black"><a href="/hodlonaut/campaign2">Campaign 2</a></li>
+						<li class="bg-black"><a href="/campaign/hodlonaut">Hodlonaut</a></li>
+						<li class="bg-black"><a href="/campaign/auction">Auction</a></li>
 					</ul>
 				</li>
 				<li>

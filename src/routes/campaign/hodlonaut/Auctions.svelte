@@ -9,19 +9,15 @@
 </svelte:head>
 
 <div class="grid place-items-center lg:w-2/3 mx-auto text-center py-20 p-4">
-	<div class="flex justify-center">
-		<lottie-player
-			src="https://assets4.lottiefiles.com/packages/lf20_yjwqaud8.json"
-			background="transparent"
-			speed="1"
-			loop
-			autoplay
-			class="opacity-50"
-			style="width: 100px; height: 100px"
-		/>
-	</div>
-	<h1 class="lg:text-6xl text-4xl font-black my-8">In the news</h1>
+	<div class="flex justify-center" />
+	<h1 class="lg:text-6xl text-4xl font-black my-8">Auctions</h1>
 	<p>Latest form a variety of sources</p>
+
+	<div class="tabs tabs-boxed">
+		<a class="tab">Tab 1</a>
+		<a class="tab">Tab 2</a>
+		<a class="tab">Tab 3</a>
+	</div>
 
 	<div class="grid lg:grid-cols-4 gap-4 my-20">
 		<!-- CARD -->

@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Campaign</title>
+</svelte:head>
+
 <div
 	class="h-screen grid lg:grid-cols-2 gap-4 place-items-center lg:w-2/3 mx-auto text-sm uppercase"
 >
